@@ -202,6 +202,7 @@ a{
     background-color: white;
     color:var(--clr-body-txt);
     font-size: 1.6rem;
+    font-weight: var(--fw-black);
 }
 
 .primary .color2{
