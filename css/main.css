@@ -28,7 +28,7 @@
 /* Main structure */
 
 header{
-    margin: 50px;
+    margin: 80px;
 }
 
 .container{
@@ -178,10 +178,11 @@ footer{
 a{
     display: inline-block;
     border-radius: 29px;
-    padding: 10px 20px;
+    padding: 20px 40px;
     margin: 5px;
     text-decoration: none;
     font-weight: var(--fw-black);
+    font-size: 1.6rem;
 }
 
 .visualLine{
@@ -204,16 +205,17 @@ a{
 
 .primary .color2{
     color:var(--clr-primary-txt2);
+    font-size: 1.6rem;
 }
 
 footer .color2{
     color: var(--clr-secondary-txt2);
+    font-size: 1.6rem;
 }
 
 /* interaction */
 a:hover{
     cursor:pointer;
-    padding: 10px 15px;
 }
 
 a.primary:hover{
@@ -254,7 +256,7 @@ a.secondary:hover{
 
     .banner-img-left, .banner-img-right{
         display: inline-block;
-        width: 100%;
+        flex-basis: 100%;
     }
 
     .footer-transparent-bg{
