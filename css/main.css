@@ -113,13 +113,13 @@ h1{
 }
 
 h2{
-    padding: 50px 25px;
+    padding: 30px 25px;
     font-weight: var(--fw-black);
     font-size: 4.4rem;
 }
 
 .feature{
-    margin: 50px 0 10px 0;
+    margin: 50px 0 50px 0;
     letter-spacing: 5px;
     font-weight: var(--fw-black);
     font-size: 1.6rem;
