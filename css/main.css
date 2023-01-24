@@ -70,6 +70,7 @@ main{
     background-position: center;
     background-repeat: no-repeat;
     height:200px;
+    margin-bottom: 40px;
 }
 
 .illustration{
@@ -107,7 +108,7 @@ footer{
 h1{
     font-weight: var(--fw-black);
     font-size: 4rem;
-    padding: 3px 60px;
+    margin-bottom: 30px;
 }
 
 h2{
@@ -248,13 +249,16 @@ a.secondary:hover{
 
 @media screen and (min-width:1440px){ 
 
+    h1{
+        font-size: 6.4rem;
+    }
+
     .banner-img{
         display: none;
     }
 
     .responsiveBanner{
         grid-template-columns: 1fr 1fr 1fr;
-        grid-template-rows: 300px;
     }
 
     .responsiveBanner .body-txt{
@@ -286,15 +290,24 @@ a.secondary:hover{
     }
 
     .footer-content h2{
+        padding: 200px 0 50px 0;
         width: 30%;
     }
 
     .footer-txt{
-        padding: 0 50px;
+        padding: 0 100px;
+        width: 20%;
+    }
+
+    main .body-txt{
         width: 30%;
     }
 
     .body-txt{
-        padding: 50px;
+        font-size: 1.8rem;
+    }
+
+    .illustrations{
+        margin: 25px 150px;
     }
 }
