@@ -201,6 +201,7 @@ a{
     margin-bottom: 20px;
     background-color: white;
     color:var(--clr-body-txt);
+    font-size: 1.6rem;
 }
 
 .primary .color2{
