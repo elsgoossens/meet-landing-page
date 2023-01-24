@@ -132,7 +132,7 @@ h2{
 
 .body-txt, .footer-txt{
     font-weight: var(--fw-medium);
-    font-size:1.4rem;
+    font-size:1.6rem;
     letter-spacing: 2px;
     padding: 10px 20px;
     margin-bottom: 20px;
