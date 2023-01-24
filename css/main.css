@@ -113,7 +113,7 @@ h1{
 }
 
 h2{
-    padding: 30px 25px;
+    padding: 30px 50px;
     font-weight: var(--fw-black);
     font-size: 4.4rem;
 }
@@ -136,7 +136,6 @@ h2{
     font-weight: var(--fw-medium);
     font-size:1.6rem;
     padding: 10px 20px;
-    margin-bottom: 20px;
     width: 80%;
 }
 
