@@ -45,8 +45,8 @@ main{
 
 .responsiveBanner{
     width: 100%;
-    display: flex;
-    flex-direction: column;
+    display: grid;
+    grid-template-columns: 1fr;
 }
 
 .banner-img-left, .banner-img-right{
@@ -253,12 +253,27 @@ a.secondary:hover{
     }
 
     .responsiveBanner{
-        flex-direction: row;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 300px;
+    }
+
+    .responsiveBanner .body-txt{
+        width: 80%;
     }
 
     .banner-img-left, .banner-img-right{
-        display: inline-block;
-        flex-basis: 100%;
+        display: inline-flex;
+        position: relative;
+        grid-row: 1/span 3;
+    }
+
+    .banner-img-left{
+        left:-100px;
+    }
+
+    .banner-img-right{
+        left:100px;
+        grid-column: 3;
     }
 
     .footer-transparent-bg{
